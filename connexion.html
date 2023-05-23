@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Connexion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
+    <div>
+        <h2 class="mb-4 text-center">Connexion</h2>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Nom d'utilisateur" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Mot de passe" required>
+            </div>
+            <input type="submit" class="btn btn-dark btn-block" value="Se connecter">
+        </form>
+        <p class="text-center mt-4">Vous n'avez pas de compte ? <a href="#" class="text-white">Créez-en un</a></p>
+    </div>
+</body>
+</html>
